@@ -1,0 +1,64 @@
+Thu Apr 18 00:06:52 PDT 2019
+Trace back: bad window path name ".columndlg"
+    while executing
+"::tk::wm protocol .columndlg WM_DELETE_WINDOW"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel 1 [concat [list ::tk::wm $option $window] $args]"
+    (procedure "::Tcl::wm" line 58)
+    invoked from within
+"::Tcl::wm protocol .columndlg WM_DELETE_WINDOW"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel 1 ::Tcl::wm $option $window $args"
+    (procedure "wm" line 21)
+    invoked from within
+"wm protocol $top WM_DELETE_WINDOW"
+    (procedure "ModalDialogActivate" line 23)
+    invoked from within
+"ModalDialogActivate $_columnDlg "
+    (object "::.main_pane.structure.interior.cs.body.struct" method "::vsimwidgets::Hierarchy::_configure_hdrdlg" body line 55)
+    invoked from within
+"::.main_pane.structure.interior.cs.body.struct _configure_hdrdlg"
+    (in namespace inscope "::vsimwidgets::Hierarchy" script line 1)
+    invoked from within
+"namespace inscope ::vsimwidgets::Hierarchy {::.main_pane.structure.interior.cs.body.struct _configure_hdrdlg}"
+    invoked from within
+".main_pane.structure.interior.cs.body.struct.lwchildsite.clipper.canvas.sfchildsite.menubutton invoke"
+    ("uplevel" body line 1)
+    invoked from within
+"uplevel #0 [list $w invoke]"
+    (procedure "tk::ButtonUp" line 22)
+    invoked from within
+"tk::ButtonUp .main_pane.structure.interior.cs.body.struct.lwchildsite.clipper.canvas.sfchildsite.menubutton"
+    (command bound to event)
+  <2:/nfs/guille/a2/rh80apps/mti/10.5/modeltech/linux_x86_64/tk8.5/bgerror.tcl:92: ::tkerror {bad window path name ".columndlg"}
+  <1:eval:1: ::tk::dialog::error::bgerror {bad window path name ".columndlg"}
+Fri Apr 19 22:06:31 PDT 2019
+Trace back: invalid command name ""
+    while executing
+"$this component $tree"
+    (method "::vsimwidgets::VTree::activate" body line 6)
+    invoked from within
+"activate"
+    (method "::WaveTree::Activate" body line 12)
+    invoked from within
+".main_pane.wave.interior.cs.body.pw.wf.tree Activate .main_pane.wave"
+    (in namespace inscope "::Wave" script line 1)
+    invoked from within
+"namespace inscope ::Wave {.main_pane.wave.interior.cs.body.pw.wf.tree Activate} .main_pane.wave"
+    ("eval" body line 1)
+    invoked from within
+"eval $itk_option(-activatecommand) $frame_name"
+    (object "::.main_pane.wave" method "::mtiwidgets::WindowObj::Activate" body line 16)
+    invoked from within
+"$windowobj Activate """
+    (object "::.vcop" method "::vsimwidgets::Vcop::ActualActivate" body line 36)
+    invoked from within
+"::.vcop ActualActivate"
+    (in namespace inscope "::vsimwidgets::Vcop" script line 1)
+    invoked from within
+"namespace inscope ::vsimwidgets::Vcop {::.vcop ActualActivate}"
+    ("after" script)
+  <2:/nfs/guille/a2/rh80apps/mti/10.5/modeltech/linux_x86_64/tk8.5/bgerror.tcl:92: ::tkerror {invalid command name ""}
+  <1:eval:1: ::tk::dialog::error::bgerror {invalid command name ""}
