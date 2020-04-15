@@ -1,0 +1,88 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/nfs/stak/users/lopezalj/Documents/ECE474/HW5
+T_opt
+!s110 1558159035
+V_<N814dgZjW6Y6IWCiEBD3
+Z1 04 2 4 work tb fast 0
+=1-14feb5d110e3-5cdf9eba-aa893-1718
+Z2 o-quiet -auto_acc_if_foreign -work work
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;10.5;63
+R0
+T_opt1
+!s110 1557889954
+V8PRDmCi2Naf2HJm_8;Aeb1
+R1
+=1-14feb5d10ee2-5cdb83a2-1954-23a2
+R2
+R3
+n@_opt1
+R4
+R0
+T_opt2
+!s110 1557893386
+VgV9N`gmAXJ4He_F<;j?F72
+R1
+=1-14feb5d10ee2-5cdb910a-5403e-4030
+R2
+R3
+n@_opt2
+R4
+R0
+vgcd
+Z5 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1558158962
+!i10b 1
+!s100 Wj0NoYO0P2X7Tl0]gn5HL1
+I9b]8^KT9AVH=KgU;Gb7GI1
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+!s105 gcd_sv_unit
+S1
+R0
+w1558158868
+8gcd.sv
+Fgcd.sv
+L0 1
+Z7 OL;L;10.5;63
+r1
+!s85 0
+31
+!s108 1558158962.000000
+!s107 gcd.sv|
+!s90 gcd.sv|-suppress|7033|
+!i113 0
+o-suppress 7033 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vtb
+R5
+!s110 1558158972
+!i10b 1
+!s100 [P<`=InE:A=M5e_TgnRJJ2
+IQQLblJhPB<_@TBd[kmi9<0
+R6
+!s105 tb_sv_unit
+S1
+R0
+w1400900675
+8tb.sv
+Ftb.sv
+L0 3
+R7
+r1
+!s85 0
+31
+!s108 1558158972.000000
+!s107 tb.sv|
+!s90 tb.sv|
+!i113 0
+o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
