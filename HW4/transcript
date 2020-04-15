@@ -1,0 +1,303 @@
+# //  ModelSim SE-64 10.5 Feb 12 2016 Linux 3.10.0-862.14.4.el7.x86_64
+# //
+# //  Copyright 1991-2016 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# vsim tb 
+# Start time: 18:59:22 on May 14,2019
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: fifo.gate.v(42): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[0][7] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(42): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(43): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[0][6] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(43): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(44): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[0][5] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(44): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(45): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[0][4] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(45): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(46): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[0][3] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(46): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(47): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[0][2] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(47): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(48): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[0][1] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(48): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(49): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[0][0] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(49): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(50): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[1][7] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(50): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(51): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[1][6] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(51): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(52): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[1][5] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(52): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(53): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[1][4] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(53): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(54): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[1][3] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(54): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(55): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[1][2] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(55): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(56): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[1][1] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(56): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(57): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[1][0] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(57): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(58): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[3][7] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(58): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(59): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[3][6] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(59): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(60): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[3][5] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(60): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(61): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[3][4] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(61): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(62): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[3][3] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(62): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(63): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[3][2] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(63): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(64): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[3][1] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(64): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(65): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[3][0] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(65): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(66): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[2][7] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(66): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(67): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[2][6] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(67): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(68): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[2][5] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(68): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(69): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[2][4] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(69): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(70): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[2][3] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(70): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(71): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[2][2] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(71): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(72): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[2][1] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(72): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(73): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[2][0] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(73): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(74): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[7][7] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(74): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(75): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[7][6] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(75): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(76): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[7][5] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(76): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(77): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[7][4] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(77): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(78): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[7][3] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(78): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(79): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[7][2] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(79): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(80): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[7][1] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(80): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(81): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[7][0] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(81): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(82): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[6][7] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(82): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(83): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[6][6] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(83): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(84): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[6][5] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(84): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(85): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[6][4] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(85): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(86): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[6][3] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(86): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(87): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[6][2] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(87): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(88): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[6][1] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(88): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(89): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[6][0] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(89): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(90): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[4][7] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(90): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(91): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[4][6] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(91): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(92): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[4][5] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(92): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(93): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[4][4] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(93): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(94): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[4][3] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(94): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(95): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[4][2] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(95): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(96): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[4][1] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(96): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(97): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[4][0] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(97): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(98): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[5][7] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(98): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(99): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[5][6] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(99): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(100): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[5][5] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(100): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(101): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[5][4] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(101): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(102): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[5][3] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(102): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(103): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[5][2] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(103): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(104): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[5][1] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(104): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(105): (vopt-2685) [TFMPC] - Too few port connections for '\mem_reg[5][0] '.  Expected 4, found 3.
+# ** Warning: fifo.gate.v(105): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(108): (vopt-2685) [TFMPC] - Too few port connections for '\rd_ptr_reg[3] '.  Expected 5, found 4.
+# ** Warning: fifo.gate.v(108): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Warning: fifo.gate.v(110): (vopt-2685) [TFMPC] - Too few port connections for '\wr_ptr_reg[3] '.  Expected 5, found 4.
+# ** Warning: fifo.gate.v(110): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# Loading sv_std.std
+# Loading work.tb(fast)
+# Loading work.fifo(fast)
+# Loading work.DFFX1(fast)
+# Loading work.DFFARX1(fast)
+# Loading work.NOR2X0(fast)
+# Loading work.AO22X1(fast)
+# Loading work.AO221X1(fast)
+# Loading work.MUX21X1(fast)
+# Loading work.AND3X1(fast)
+# Loading work.XOR2X1(fast)
+# Loading work.NAND2X0(fast)
+# Loading work.XNOR2X1(fast)
+# Loading work.OR2X1(fast)
+# Loading work.NAND3X0(fast)
+# Loading work.NOR3X0(fast)
+# Loading work.INVX0(fast)
+# Loading work.AND4X1(fast)
+# Loading work.NAND4X0(fast)
+# ** Warning: (vsim-PLI-3691) tb.sv(98): Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Region: /tb/wrstim File: tb.sv
+# ** Warning: (vsim-3017) fifo.gate.v(42): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[0][7]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(43): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[0][6]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(44): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[0][5]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(45): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[0][4]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(46): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[0][3]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(47): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[0][2]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(48): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[0][1]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(49): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[0][0]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(50): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[1][7]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(51): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[1][6]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(52): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[1][5]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(53): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[1][4]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(54): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[1][3]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(55): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[1][2]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(56): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[1][1]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(57): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[1][0]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(58): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[3][7]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(59): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[3][6]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(60): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[3][5]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(61): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[3][4]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(62): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[3][3]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(63): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[3][2]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(64): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[3][1]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(65): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[3][0]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(66): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[2][7]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(67): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[2][6]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(68): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[2][5]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(69): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[2][4]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(70): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[2][3]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(71): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[2][2]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(72): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[2][1]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(73): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[2][0]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(74): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[7][7]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(75): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[7][6]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(76): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[7][5]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(77): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[7][4]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(78): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[7][3]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(79): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[7][2]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(80): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[7][1]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(81): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[7][0]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(82): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[6][7]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(83): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[6][6]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(84): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[6][5]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(85): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[6][4]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(86): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[6][3]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(87): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[6][2]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(88): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[6][1]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(89): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[6][0]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(90): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[4][7]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(91): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[4][6]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(92): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[4][5]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(93): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[4][4]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(94): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[4][3]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(95): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[4][2]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(96): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[4][1]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(97): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[4][0]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(98): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[5][7]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(99): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[5][6]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(100): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[5][5]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(101): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[5][4]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(102): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[5][3]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(103): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[5][2]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(104): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[5][1]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(105): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\mem_reg[5][0]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(108): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\rd_ptr_reg[3]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFARX1.v
+# ** Warning: (vsim-3017) fifo.gate.v(110): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/fifo_0/\wr_ptr_reg[3]  File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/verilog/DFFARX1.v
+# End time: 19:00:16 on May 14,2019, Elapsed time: 0:00:54
+# Errors: 0, Warnings: 199
