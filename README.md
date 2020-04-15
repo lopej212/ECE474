@@ -1,4 +1,4 @@
-# ECE474
+# ECE474 VLSI System Design 
 This repository holds all of the assignments for ECE 474 VLSI System Design course at Oregon State University
 Course Assignments:
 * HW2: 8-bit ALU unit
