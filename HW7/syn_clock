@@ -1,0 +1,9 @@
+read_sverilog decoder.sv
+read_sverilog mux.sv
+read_sverilog states.sv
+read_sverilog clock.sv
+compile
+write -format verilog -hierarchy -output clock.gate.v
+#report_timing
+#report_area
+quit!
